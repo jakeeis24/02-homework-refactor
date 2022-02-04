@@ -32,10 +32,10 @@ header nav {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
 }
-
-header nav ul {
+/* the code below was not doing anything so I commented it out. */
+/* header nav ul {
   list-style-type: none;
-}
+} */
 
 header nav ul li {
   display: inline-block;
@@ -69,16 +69,17 @@ p {
   float: right;
   margin-left: 25px;
 }
-
-/* .content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-} */
+/* assigned a content class in the html doc to move the aside tag up next to the sections. */
+.content {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+/* The benefits class is styling the <article> tag in the html doc. */
 
 .benefits {
   margin-right: 20px;
-  padding: 88px; /*changed from 20px to center the images within the <aside> html tag. */
+  padding: 104px; /*changed from 20px to center the images within the <aside> html tag. */
   clear: both;
   float: right;
   width: 20%;
@@ -90,10 +91,12 @@ p {
 .benefit {
   margin-bottom: 32px;
   color: white;
-}
-.benefit p {
   text-align: center;
 }
+/* I removed the declaration below and placed it in the .benefit class to make it more concise. */
+/* .benefit p {
+   text-align: center; 
+} */
 
 /* no need for the 3 classes below. All consolidated into the .benefit class */
 /* .benefit-lead { 
@@ -110,12 +113,12 @@ p {
   margin-bottom: 32px;
   color: #ffffff;
 }*/
-
+/* h3 tags given a 10px margin and centered in the <article> tag. */
 .benefit h3 {
   margin: 10px auto;
   text-align: center;
 }
-
+/* images in the <article> tag centered and given a max width of 200px */
 .benefit img {
   text-align: center;
   display: block;
@@ -128,7 +131,8 @@ p {
   text-align: center;
 } */
 
-.benefit-lead img {
+/* the 3 class selectors below have been commented out because they do not have classes in the html document. */
+/* .benefit-lead img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
@@ -144,9 +148,9 @@ p {
   display: block;
   margin: 10px auto;
   max-width: 150px;
-}
+} */
 
-.search-engine-optimization {
+.section-content {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -154,8 +158,8 @@ p {
   background-color: #0072bb;
   color: #ffffff;
 }
-
-.online-reputation-management {
+/* consolidated the main sections to a isngle class */
+/* .online-reputation-management {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -171,43 +175,45 @@ p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #0072bb;
   color: #ffffff;
-}
+} */
 
-.search-engine-optimization img {
+.section-content img {
   max-height: 200px;
 }
-
-.online-reputation-management img {
+/* consolidated the img elements to a single class */
+/* .online-reputation-management img {
   max-height: 200px;
 }
 
 .social-media-marketing img {
   max-height: 200px;
-}
+} */
 
-.search-engine-optimization h2 {
+.section-content h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
-
-.online-reputation-management h2 {
+/* consolidated the h2 elements to a single class */
+/* .online-reputation-management h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
 .social-media-marketing h2 {
   margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.footer {
+  font-size: 36px; 
+} */
+/* changed from footer class selector because of improved semantics on the html doc. */
+footer {
   padding: 30px;
   clear: both;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   text-align: center;
+  visibility: hidden;
 }
-
-.footer h2 {
+/* changed from footer class selector because of improved semantics on the html doc. */
+/* added the visibility: hidden declaration to hide the footer while maintaining the semantic html */
+footer h2 {
   font-size: 20px;
 }
