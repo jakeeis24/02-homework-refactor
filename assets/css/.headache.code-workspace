@@ -1,0 +1,103 @@
+{
+	"folders": [
+		{
+			"name": "01-Ins_Command-Line",
+			"path": "..\\..\\..\\..\\..\\01-Ins_Command-Line"
+		},
+		{
+			"name": "02-Stu_Command-Line",
+			"path": "..\\..\\..\\..\\..\\02-Stu_Command-Line"
+		},
+		{
+			"name": "03-Ins_Git",
+			"path": "..\\..\\..\\..\\..\\03-Ins_Git"
+		},
+		{
+			"name": "04-Stu_Git",
+			"path": "..\\..\\..\\..\\..\\04-Stu_Git"
+		},
+		{
+			"name": "05-Ins_HTML",
+			"path": "..\\..\\..\\..\\..\\05-Ins_HTML"
+		},
+		{
+			"name": "06-Stu_HTML",
+			"path": "..\\..\\..\\..\\..\\06-Stu_HTML"
+		},
+		{
+			"name": "07-Ins_Attributes",
+			"path": "..\\..\\..\\..\\..\\07-Ins_Attributes"
+		},
+		{
+			"name": "08-Stu_Attributes",
+			"path": "..\\..\\..\\..\\..\\08-Stu_Attributes"
+		},
+		{
+			"name": "09-Ins_CSS-color",
+			"path": "..\\..\\..\\..\\..\\09-Ins_CSS-color"
+		},
+		{
+			"name": "10-Stu_CSS-color",
+			"path": "..\\..\\..\\..\\..\\10-Stu_CSS-color"
+		},
+		{
+			"name": "11-Ins_CSS-units-font",
+			"path": "..\\..\\..\\..\\..\\11-Ins_CSS-units-font"
+		},
+		{
+			"name": "12-Stu_CSS-units-font",
+			"path": "..\\..\\..\\..\\..\\12-Stu_CSS-units-font"
+		},
+		{
+			"name": "13-Ins_CSS-selectors",
+			"path": "..\\..\\..\\..\\..\\13-Ins_CSS-selectors"
+		},
+		{
+			"name": "14-Stu_CSS-selectors",
+			"path": "..\\..\\..\\..\\..\\14-Stu_CSS-selectors"
+		},
+		{
+			"name": "15-Ins_HTML-display",
+			"path": "..\\..\\..\\..\\..\\15-Ins_HTML-display"
+		},
+		{
+			"name": "16-Stu_HTML-display",
+			"path": "..\\..\\..\\..\\..\\16-Stu_HTML-display"
+		},
+		{
+			"name": "17-Ins_CSS-box-model",
+			"path": "..\\..\\..\\..\\..\\17-Ins_CSS-box-model"
+		},
+		{
+			"name": "18-Stu_CSS-box-model",
+			"path": "..\\..\\..\\..\\..\\18-Stu_CSS-box-model"
+		},
+		{
+			"name": "19-Ins_CSS-positioning",
+			"path": "..\\..\\..\\..\\..\\19-Ins_CSS-positioning"
+		},
+		{
+			"name": "20-Stu_CSS-positioning",
+			"path": "..\\..\\..\\..\\..\\20-Stu_CSS-positioning"
+		},
+		{
+			"name": "21-Evr_Git-Guide",
+			"path": "..\\..\\..\\..\\..\\21-Evr_Git-Guide"
+		},
+		{
+			"name": "22-Stu_Mini-Project",
+			"path": "..\\..\\..\\..\\..\\22-Stu_Mini-Project"
+		},
+		{
+			"name": "01-Activities",
+			"path": "..\\..\\..\\..\\..\\02-Advanced-CSS\\01-Activities"
+		},
+		{
+			"name": "02-Advanced-CSS",
+			"path": "..\\..\\..\\..\\..\\02-Advanced-CSS"
+		},
+		{
+			"path": "..\\..\\.."
+		}
+	]
+}
